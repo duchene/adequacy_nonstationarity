@@ -1,0 +1,31 @@
+
+
+require(phangorn)
+
+fols <- grep("[.]folder", dir(), value = T)
+results <- matrix(NA, nrow = length(fols), ncol = 9)
+rownames(results) <- fols
+colnames(results) <- c("empirical.chisq", "chisq.p.value", "topo.dist", "stdevs.dist", "ranges.dist", "meanNodeSupport", "nodeSupport95", "treeLength", "alpha")
+obstr <- unroot(read.tree("birds.astral.raw.tre"))
+
+for(i in 1:length(fols)){
+      if(file.exists(paste0(fols[i], "/adeqres.Rdata"))){
+      		load(paste0(fols[i], "/adeqres.Rdata"))
+		if(class(adeqres) == "try-error") next
+		load(paste0(fols[i], "/", grep("[.]res[.]Rdata", dir(fols[i]), value = T)))
+      		esttr <- try(read.tree(paste0(fols[i], "/", gsub("[.]folder", "_phyml_tree", fols[i]))))
+		if(class(try(dist.topo(obstr, esttr))) == "try-error") next
+      		results[i, 1:2] <- c(adeqres[[4]], adeqres[[6]])
+		results[i, 3] <- dist.topo(obstr, esttr)
+		simmean <- mean(adeqres[[5]])
+		simmedian <- median(adeqres[[5]])
+		simstdev <- sd(adeqres[[5]])
+		simsran <- diff(range(adeqres[[5]]))
+		results[i, 4] <- (adeqres[[4]] - simmean) / simstdev
+		results[i, 5] <- (adeqres[[4]] - simmedian) / simsran
+ 		results[i, 6:8] <- unlist(res[1:3])
+		results[i, 9] <- res[[6]]
+      }
+      
+      
+}

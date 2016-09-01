@@ -1,0 +1,66 @@
+WARNING: ignoring environment value of R_HOME
+[1] "13197dat.phy"
+
+
+. command-line: phyml -m gtr -a e --q -i 13197dat.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 13197dat.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1470955109
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -1261.806189
+
+. Log likelihood of the current tree: -1260.705954.
+
+. Time used 0h0m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "sequence length is 408"
+[1] "TREE:"
+
+Phylogenetic tree with 40 tips and 38 internal nodes.
+
+Tip labels:
+	MANVI, PTEGU, HALLE, HALAL, APAVI, CALAN, ...
+Node labels:
+	, 0.580345, 0.910557, 0.000000, 0.934624, 0.875939, ...
+
+Unrooted; includes branch lengths.
+[1] "Q matrix = 0.2862"  "Q matrix = 0.72506" "Q matrix = 0.05282"
+[4] "Q matrix = 0.12537" "Q matrix = 0.8479"  "Q matrix = 0.17871"
+[1] "Shape parameter: 0.03"
+684405.mgmt1

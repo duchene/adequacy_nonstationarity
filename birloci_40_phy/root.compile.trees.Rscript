@@ -1,0 +1,18 @@
+require(phangorn)
+
+fols <- grep("[.]folder", dir(), value = T)
+source("../../deletion.Rscript")
+alltrs <- list()
+taxa <- vector()
+
+for(i in 1:length(fols)){
+      tr <- read.tree(paste0(fols[i], "/", grep("_phyml_tree", dir(fols[i]), value = T)))
+      tr <- try(root(tr, "STRCA", resolve.root = T))
+      if(class(tr) == "try-error") next
+      alltrs[[length(alltrs) + 1]] <- tr
+      names(alltrs)[length(alltrs)] <- fols[i]
+      taxa <- unique(c(taxa, tr$tip.label))
+}
+class(alltrs) <- "multiPhylo"
+save(alltrs, file = "all.phyml.trees.Rdata")
+write.tree(alltrs, file = "all.phyml.trees.tre")

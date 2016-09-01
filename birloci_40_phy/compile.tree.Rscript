@@ -1,0 +1,13 @@
+require(phangorn)
+
+fols <- grep("[.]folder", dir(), value = T)
+source("../../deletion.Rscript")
+taxa <- vector()
+
+for(i in 1:length(fols)){
+      tr <- readLines(paste0(fols[i], "/", grep("_phyml_tree", dir(fols[i]), value = T)))
+      if(!length(grep("[(]", tr))) next
+      taxa <- c(taxa, tr)
+      
+}
+writeLines(taxa, con = "all.phyml.trees.raw.tre")

@@ -1,0 +1,182 @@
+load("prelim.sim.res.Rdata")
+
+restables <- list(results.null.34, results.mild.34, results.strong.34, results.strongest.34, results.null.64, results.mild.64, results.strong.64, results.strongest.64)
+names(restables) <- c("results.null.34", "results.mild.34", "results.strong.34", "results.strongest.34", "results.null.64", "results.mild.64", "results.strong.64", "results.strongest.64")
+for(i in 1:length(restables)){ 
+      restables[[i]] <- cbind(restables[[i]], strsplit(names(restables)[i], split = "[.]")[[1]][2])
+      colnames(restables[[i]])[8] <- "strength"
+}
+
+allrestable <- as.data.frame(do.call(rbind, restables))
+
+allrestable <- cbind(allrestable, do.call(rbind, strsplit(rownames(allrestable), split = "[.]"))[,2:4])
+
+allrestable <- cbind(allrestable, c(rep(32, 260), rep(64, 260)))
+colnames(allrestable)[9:12] <- c("tr.length", "prop.nonstat", "monophyly", "tr.size")
+allrestable[, 11] <- as.character(allrestable[, 11])
+allrestable[c(1:20, 261:280), "monophyly"] <- "null"
+allrestable$tr.size <- factor(allrestable$tr.size, c("64", "32"))
+allrestable$prop.nonstat <- factor(allrestable$prop.nonstat, c("half", "eighth", "null"))
+allrestable$strength <- factor(allrestable$strength, c("strongest", "strong", "mild", "null"))
+
+resmat <- matrix(NA, ncol = 8, nrow = 14)
+colnames(resmat) <- c("prop", "strength", "tr.size", "monophyly", "chisq.p.value", "topo.dist", "trlen.dist", "sd.trlen.dist")
+ind <- rep(1:14, each = 10)
+seqind <- seq(1, 140, 10)
+
+pdf("prelimplots/Fig1.nonmon.long.pdf")
+nonmondatlong <- allrestable[which(allrestable[, "monophyly"] != "mono" & allrestable[, "tr.length"] == "long"),]
+boxplot(as.numeric(as.character(nonmondatlong$stdevs.dist)) ~ nonmondatlong$tr.size + nonmondatlong$strength + nonmondatlong$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+resmat[, 1] <- as.character(nonmondatlong$prop.nonstat)[seqind]
+resmat[, 2] <- as.character(nonmondatlong$strength)[seqind] 
+resmat[, 3] <- as.character(nonmondatlong$tr.size)[seqind]
+resmat[, 4] <- by(as.numeric(as.character(nonmondatlong$joined.nonmons)), ind, median)
+resmat[, 5] <- by(as.numeric(as.character(nonmondatlong$chisq.p.value)), ind, median)
+resmat[, 6] <- by(as.numeric(as.character(nonmondatlong$topo.dist)), ind, median)
+resmat[, 7] <- by(as.numeric(as.character(nonmondatlong$trlen.dist)), ind, median)
+resmat[, 8] <- by(as.numeric(as.character(nonmondatlong$trlen.dist)), ind, mad)
+resmat <- resmat[c(1, 8, 2, 9, 4, 11, 6, 13, 3, 10, 5, 12, 7, 14),]
+write.csv(resmat, file = "prelimplots/resmat.Fig1.nonmon.long.csv")
+
+pdf("prelimplots/Fig2.mon.long.pdf")
+mondatlong <- allrestable[which(allrestable[, "monophyly"] != "nonmono" & allrestable[, "monophyly"] != "nonmon" & allrestable[, "tr.length"] == "long"),]
+boxplot(as.numeric(as.character(mondatlong$stdevs.dist)) ~ mondatlong$tr.size + mondatlong$strength + mondatlong$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+resmat[, 1] <- as.character(mondatlong$prop.nonstat)[seqind]
+resmat[, 2] <- as.character(mondatlong$strength)[seqind]
+resmat[, 3] <- as.character(mondatlong$tr.size)[seqind]
+resmat[, 4] <- by(as.numeric(as.character(mondatlong$joined.nonmons)), ind, median, na.rm = T)
+resmat[, 5] <- by(as.numeric(as.character(mondatlong$chisq.p.value)), ind, median, na.rm = T)
+resmat[, 6] <- by(as.numeric(as.character(mondatlong$topo.dist)), ind, median, na.rm = T)
+resmat[, 7] <- by(as.numeric(as.character(mondatlong$trlen.dist)), ind, median, na.rm = T)
+resmat[, 8] <- by(as.numeric(as.character(mondatlong$trlen.dist)), ind, mad, na.rm = T)
+resmat <- resmat[c(1, 8, 2, 9, 4, 11, 6, 13, 3, 10, 5, 12, 7, 14),]
+write.csv(resmat, file = "prelimplots/resmat.Fig2.mon.long.csv")
+
+pdf("prelimplots/FigS1.nonmon.short.pdf")
+nonmondatshort <- allrestable[which(allrestable[, "monophyly"] != "mono" & allrestable[, "tr.length"] == "short"),]
+boxplot(as.numeric(as.character(nonmondatshort$stdevs.dist)) ~ nonmondatshort$tr.size + nonmondatshort$strength + nonmondatshort$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+resmat[, 1] <- as.character(nonmondatshort$prop.nonstat)[seqind]
+resmat[, 2] <- as.character(nonmondatshort$strength)[seqind]
+resmat[, 3] <- as.character(nonmondatshort$tr.size)[seqind]
+resmat[, 4] <- by(as.numeric(as.character(nonmondatshort$joined.nonmons)), ind, median, na.rm = T)
+resmat[, 5] <- by(as.numeric(as.character(nonmondatshort$chisq.p.value)), ind, median, na.rm = T)
+resmat[, 6] <- by(as.numeric(as.character(nonmondatshort$topo.dist)), ind, median, na.rm = T)
+resmat[, 7] <- by(as.numeric(as.character(nonmondatshort$trlen.dist)), ind, median, na.rm = T)
+resmat[, 8] <- by(as.numeric(as.character(nonmondatshort$trlen.dist)), ind, mad, na.rm = T)
+resmat <- resmat[c(1, 8, 2, 9, 4, 11, 6, 13, 3, 10, 5, 12, 7, 14),]
+write.csv(resmat, file = "prelimplots/resmat.FigS1.nonmon.short.csv")
+
+pdf("prelimplots/FigS2.mon.short.pdf")
+mondatshort <- allrestable[which(allrestable[, "monophyly"] != "nonmono" & allrestable[, "monophyly"] != "nonmon" & allrestable[, "tr.length"] == "short"),]
+boxplot(as.numeric(as.character(mondatshort$stdevs.dist)) ~ mondatshort$tr.size + mondatshort$strength + mondatshort$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+resmat[, 1] <- as.character(mondatshort$prop.nonstat)[seqind]
+resmat[, 2] <- as.character(mondatshort$strength)[seqind]
+resmat[, 3] <- as.character(mondatshort$tr.size)[seqind]
+resmat[, 4] <- by(as.numeric(as.character(mondatshort$joined.nonmons)), ind, median, na.rm = T)
+resmat[, 5] <- by(as.numeric(as.character(mondatshort$chisq.p.value)), ind, median, na.rm = T)
+resmat[, 6] <- by(as.numeric(as.character(mondatshort$topo.dist)), ind, median, na.rm = T)
+resmat[, 7] <- by(as.numeric(as.character(mondatshort$trlen.dist)), ind, median, na.rm = T)
+resmat[, 8] <- by(as.numeric(as.character(mondatshort$trlen.dist)), ind, mad, na.rm = T)
+resmat <- resmat[c(1, 8, 2, 9, 4, 11, 6, 13, 3, 10, 5, 12, 7, 14),]
+write.csv(resmat, file = "prelimplots/resmat.FigS2.mon.short.csv")
+
+pdf("prelimplots/FigS3.nonmon.long.rangedist.pdf")
+boxplot(as.numeric(as.character(nonmondatlong$ranges.dist)) ~ nonmondatlong$tr.size + nonmondatlong$strength + nonmondatlong$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+
+pdf("prelimplots/FigS4.mon.long.rangedist.pdf")
+boxplot(as.numeric(as.character(mondatlong$ranges.dist)) ~ mondatlong$tr.size + mondatlong$strength + mondatlong$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+
+pdf("prelimplots/FigS5.nonmon.short.rangedist.pdf")
+boxplot(as.numeric(as.character(nonmondatshort$ranges.dist)) ~ nonmondatshort$tr.size + nonmondatshort$strength + nonmondatshort$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+
+pdf("prelimplots/FigS6.mon.short.rangedist.pdf")
+boxplot(as.numeric(as.character(mondatshort$ranges.dist)) ~ mondatshort$tr.size + mondatshort$strength + mondatshort$prop.nonstat, horizontal = T, range = 0, las = 1)
+dev.off()
+
+load("prelim.birds.res.Rdata")
+
+pdf("prelimplots/FigS7.criteria.cor.pdf", width = 13, height = 7, useDingbats = F)
+par(mfrow = c(1,2))
+plot(as.numeric(as.character(allrestable$stdevs.dist)), as.numeric(as.character(allrestable$ranges.dist)), pch = 20)
+plot(results.birds[, 4], results.birds[, 5], pch = 20)
+dev.off()
+
+pdf("prelimplots/FigS8.bir.nodeSup.pdf", width = 13, height = 7, useDingbats = F)
+par(mfrow = c(1,2))
+plot(results.birds[, 4], results.birds[, 6], xlab = "Predictive X2 standard deviations\nfrom empirical value",, ylab = "Mean node support", pch = 20)
+plot(results.birds[, 5], results.birds[, 6], xlab = "Predictive X2 ranges\nfrom empirical value", ylab = "Mean node support", pch = 20)
+dev.off()
+
+pdf("prelimplots/FigS9.bir.treelength.pdf", width = 13, height = 7, useDingbats = F)
+par(mfrow = c(1,2))
+plot(results.birds[, 4], results.birds[, 8], xlab = "Predictive X2 standard deviations\nfrom empirical value", ylab = "Total tree length", pch = 20)
+plot(results.birds[, 5], results.birds[, 8], xlab = "Predictive X2 ranges\nfrom empirical value", ylab = "Total tree length", pch = 20)
+dev.off()
+
+pdf("prelimplots/FigS10.bir.alpha.pdf", width = 13, height = 7, useDingbats = F)
+par(mfrow = c(1,2))
+plot(results.birds[, 4], results.birds[, 9], xlab = "Predictive X2 standard deviations\nfrom empirical value", ylab = "Alpha estimate for\ngamma-distributed rates across sites", pch = 20)
+plot(results.birds[, 5], results.birds[, 9], xlab = "Predictive X2 ranges\nfrom empirical value", ylab = "Alpha estimate for\ngamma-distributed rates across sites", pch = 20)
+dev.off()
+
+pdf("prelimplots/FigS11.bir.alpha.pdf", width = 13, height = 7, useDingbats = F)
+par(mfrow = c(1,2))
+plot(results.birds[, 4], results.birds[, 10], xlab = "Predictive X2 standard deviations\nfrom empirical value", ylab = "Mean topological distance to\nto other loci", pch = 20)
+plot(results.birds[, 5], results.birds[, 10], xlab = "Predictive X2 ranges\nfrom empirical value", ylab = "Mean topological distance to\nto other loci", pch = 20)
+dev.off()
+
+pdf("prelimplots/FigS12.nonmon.long.scatter.pdf", height = 10, width = 10, useDingbats = F)
+par(mfrow = c(2, 2))
+plot(as.numeric(as.character(nonmondatlong$stdevs.dist)), abs(as.numeric(as.character(nonmondatlong$topo.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(0, 20, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatlong$stdevs.dist)), abs(as.numeric(as.character(nonmondatlong$topo.dist))), pch = 19, col = as.numeric(as.character(nonmondatlong$joined.nonmons)) + 3)
+legend(0, 20, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatlong$stdevs.dist)), abs(as.numeric(as.character(nonmondatlong$trlen.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)), ylim = c(0, 0.5))
+legend(1500, 0.5, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatlong$stdevs.dist)), abs(as.numeric(as.character(nonmondatlong$trlen.dist))), pch = 19, col = as.numeric(as.character(nonmondatlong$joined.nonmons)) + 3, ylim = c(0, 0.5))
+legend(1500, 0.5, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+dev.off()
+
+pdf("prelimplots/FigS13.mon.long.scatter.pdf", height = 10, width = 10, useDingbats = F)
+par(mfrow = c(2, 2))
+plot(as.numeric(as.character(mondatlong$stdevs.dist)), abs(as.numeric(as.character(mondatlong$topo.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(0, 20, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatlong$stdevs.dist)), abs(as.numeric(as.character(mondatlong$topo.dist))), pch = 19, col = as.numeric(as.character(mondatlong$joined.nonmons)) + 3)
+legend(0, 20, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatlong$stdevs.dist)), abs(as.numeric(as.character(mondatlong$trlen.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)), ylim = c(0, 0.4))
+legend(1500, 0.5, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatlong$stdevs.dist)), abs(as.numeric(as.character(mondatlong$trlen.dist))), pch = 19, col = as.numeric(as.character(mondatlong$joined.nonmons)) + 3, ylim = c(0, 0.4))
+legend(1500, 0.5, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+dev.off()
+
+pdf("prelimplots/FigS14.nonmon.short.scatter.pdf", height = 10, width = 10, useDingbats = F)
+par(mfrow = c(2, 2))
+plot(as.numeric(as.character(nonmondatshort$stdevs.dist)), abs(as.numeric(as.character(nonmondatshort$topo.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(0, 20, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatshort$stdevs.dist)), abs(as.numeric(as.character(nonmondatshort$topo.dist))), pch = 19, col = as.numeric(as.character(nonmondatshort$joined.nonmons)) + 3)
+legend(0, 20, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatshort$stdevs.dist)), abs(as.numeric(as.character(nonmondatshort$trlen.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(1500, 0.5, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(nonmondatshort$stdevs.dist)), abs(as.numeric(as.character(nonmondatshort$trlen.dist))), pch = 19, col = as.numeric(as.character(nonmondatshort$joined.nonmons)) + 3)
+legend(1500, 0.5, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+dev.off()
+
+pdf("prelimplots/FigS15.mon.short.scatter.pdf", height = 10, width = 10, useDingbats = F)
+par(mfrow = c(2, 2))
+plot(as.numeric(as.character(mondatshort$stdevs.dist)), abs(as.numeric(as.character(mondatshort$topo.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(0, 20, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatshort$stdevs.dist)), abs(as.numeric(as.character(mondatshort$topo.dist))), pch = 19, col = as.numeric(as.character(mondatshort$joined.nonmons)) + 3)
+legend(0, 20, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatshort$stdevs.dist)), abs(as.numeric(as.character(mondatshort$trlen.dist))), pch = 19, col = c(rep(3, 70), rep(4, 70)))
+legend(1500, 0.5, legend = c("34 tips", "64 tips"), fill = c(3, 4))
+plot(as.numeric(as.character(mondatshort$stdevs.dist)), abs(as.numeric(as.character(mondatshort$trlen.dist))), pch = 19, col = as.numeric(as.character(mondatshort$joined.nonmons)) + 3)
+legend(1500, 0.5, legend = c("Convergent-composition groups separated", "Convergent-composition groups joined"), fill = c(3, 4))
+dev.off()
+
