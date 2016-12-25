@@ -1,0 +1,4385 @@
+Loading required package: ape
+[1] "sim.long.eighth.mono.2.phy"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 sim.long.eighth.mono.2.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480721186
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -231151.154459.
+
+. Time used 0h32m54s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "sequence length is 5000"
+[1] "TREE:"
+
+Phylogenetic tree with 64 tips and 62 internal nodes.
+
+Tip labels:
+	t52, t51, t53, t56, t55, t37, ...
+Node labels:
+	, 0.907000, 0.962000, 0.999000, 0.999000, 0.995000, ...
+
+Unrooted; includes branch lengths.
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+[1] "Q matrix = 0.16797" "Q matrix = 0.60929" "Q matrix = 0.16161"
+[4] "Q matrix = 0.14404" "Q matrix = 0.78423" "Q matrix = 0.14311"
+Loading required package: MASS
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480723239
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264805.531386.
+
+. Time used 0h25m38s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 1 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480724781
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265809.386194.
+
+. Time used 0h55m46s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 2 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480728132
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266475.526327.
+
+. Time used 0h39m3s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 3 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480730481
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266098.484533.
+
+. Time used 1h3m12s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 4 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480734278
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265292.193445.
+
+. Time used 0h32m58s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 5 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480736262
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265383.503750.
+
+. Time used 1h10m56s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 6 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480740523
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265292.416055.
+
+. Time used 0h21m6s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 7 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480741794
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265333.782941.
+
+. Time used 1h12m4s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 8 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480746124
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265780.226426.
+
+. Time used 0h42m43s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 9 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480748693
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266443.111221.
+
+. Time used 0h32m33s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 10 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480750652
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266623.447049.
+
+. Time used 0h52m35s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 11 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480753812
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266250.920842.
+
+. Time used 0h57m32s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 12 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480757270
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265749.334326.
+
+. Time used 0h43m47s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 13 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480759903
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264838.415252.
+
+. Time used 0h40m8s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 14 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480762316
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265913.270870.
+
+. Time used 0h36m46s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 15 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480764526
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265812.569795.
+
+. Time used 0h28m35s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 16 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480766246
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265039.444139.
+
+. Time used 0h34m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 17 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480768309
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266259.349310.
+
+. Time used 1h12m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 18 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480772679
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266388.089693.
+
+. Time used 0h26m9s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 19 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480774254
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265864.026400.
+
+. Time used 0h32m44s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 20 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480776224
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265190.339248.
+
+. Time used 0h28m47s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 21 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480777956
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266966.930716.
+
+. Time used 0h59m15s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 22 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480781517
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266265.740208.
+
+. Time used 0h38m14s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 23 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480783818
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266255.244458.
+
+. Time used 0h22m29s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 24 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480785173
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264281.653110.
+
+. Time used 1h12m29s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 25 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480789527
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265973.252136.
+
+. Time used 1h7m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 26 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480793571
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -267394.224441.
+
+. Time used 0h50m40s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 27 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480796615
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265311.919422.
+
+. Time used 1h0m2s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 28 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480800223
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265450.701538.
+
+. Time used 0h27m56s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 29 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480801904
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266317.941867.
+
+. Time used 1h15m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 30 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480806429
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265374.932185.
+
+. Time used 0h46m17s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 31 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480809211
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266325.960107.
+
+. Time used 0h38m30s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 32 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480811526
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265955.611057.
+
+. Time used 0h40m9s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 33 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480813941
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264660.375519.
+
+. Time used 0h31m21s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 34 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480815828
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -267107.852723.
+
+. Time used 1h1m5s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 35 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480819499
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265460.936131.
+
+. Time used 1h34m40s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 36 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480825185
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265836.406231.
+
+. Time used 0h22m47s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 37 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480826558
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265516.066353.
+
+. Time used 1h25m0s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 38 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480831663
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265916.473002.
+
+. Time used 0h49m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 39 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480834627
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265970.922110.
+
+. Time used 0h53m35s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 40 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480837848
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266156.438991.
+
+. Time used 0h34m12s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 41 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480839906
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265461.063175.
+
+. Time used 1h29m59s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 42 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480845311
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265918.675828.
+
+. Time used 0h35m39s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 43 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480847455
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266312.327680.
+
+. Time used 0h32m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 44 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480849400
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266435.028195.
+
+. Time used 0h37m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 45 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480851645
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265362.310681.
+
+. Time used 0h59m23s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 46 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480855214
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266092.915190.
+
+. Time used 0h52m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 47 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480858359
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266023.981453.
+
+. Time used 0h46m21s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 48 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480861145
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266382.986543.
+
+. Time used 0h45m57s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 49 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480863908
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265601.828173.
+
+. Time used 1h9m34s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 50 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480868088
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265103.506164.
+
+. Time used 0h43m56s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 51 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480870730
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266225.788850.
+
+. Time used 1h10m17s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 52 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480874952
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266743.563567.
+
+. Time used 0h55m33s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 53 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480878290
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265243.716624.
+
+. Time used 0h51m37s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 54 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480881393
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266017.760524.
+
+. Time used 0h32m6s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 55 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480883324
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265657.444082.
+
+. Time used 0h23m43s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 56 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480884754
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265533.815794.
+
+. Time used 0h35m36s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 57 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480886895
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265392.339189.
+
+. Time used 1h1m35s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 58 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480890594
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266214.599178.
+
+. Time used 0h24m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 59 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480892057
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264433.752465.
+
+. Time used 0h36m39s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 60 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480894261
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265663.131508.
+
+. Time used 0h29m26s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 61 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480896032
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266471.964912.
+
+. Time used 0h34m49s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 62 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480898126
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265919.219987.
+
+. Time used 1h9m22s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 63 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480902294
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266110.017318.
+
+. Time used 0h25m35s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 64 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480903834
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265989.515661.
+
+. Time used 1h6m36s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 65 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480907836
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265120.810307.
+
+. Time used 1h8m44s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 66 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480911966
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265595.180532.
+
+. Time used 1h10m33s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 67 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480916204
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266331.141396.
+
+. Time used 1h4m14s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 68 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480920065
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265766.804752.
+
+. Time used 1h24m13s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 69 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480925125
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265779.516879.
+
+. Time used 1h20m41s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 70 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480929971
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265928.151965.
+
+. Time used 0h34m3s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 71 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480932019
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265526.445916.
+
+. Time used 0h56m12s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 72 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480935396
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266187.920711.
+
+. Time used 0h31m50s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 73 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480937313
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266222.287900.
+
+. Time used 0h27m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 74 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480938985
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265262.514589.
+
+. Time used 1h37m4s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 75 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480944816
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -267296.471572.
+
+. Time used 0h46m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 76 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480947601
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265530.249093.
+
+. Time used 0h48m32s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 77 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480950519
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266081.861397.
+
+. Time used 1h12m41s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 78 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480954886
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265985.127616.
+
+. Time used 1h22m5s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 79 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480959818
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265388.493228.
+
+. Time used 0h58m21s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 80 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480963326
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266632.642094.
+
+. Time used 0h30m36s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 81 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480965168
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265617.093646.
+
+. Time used 0h28m44s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 82 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480966897
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266024.125619.
+
+. Time used 0h58m11s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 83 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480970395
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -265921.016842.
+
+. Time used 0h29m50s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 84 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480972190
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266200.530437.
+
+. Time used 0h35m24s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 85 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480974319
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -264724.446409.
+
+. Time used 0h40m29s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 86 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480976756
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -266420.612682.
+
+. Time used 0h29m26s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+rm: cannot remove ‘temp_sim.phy_phyml_stats’: No such file or directory
+rm: cannot remove ‘temp_sim.phy_phyml_tree’: No such file or directory
+[1] "Simulation 87 processed"
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480978526
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+slurmstepd: error: *** JOB 149916 ON spartan-rc003 CANCELLED AT 2016-12-06T10:26:23 DUE TO TIME LIMIT ***

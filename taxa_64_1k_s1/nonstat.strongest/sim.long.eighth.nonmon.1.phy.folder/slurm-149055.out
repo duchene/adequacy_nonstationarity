@@ -1,0 +1,54 @@
+Loading required package: ape
+[1] "sim.long.eighth.nonmon.1.phy"                
+[2] "sim.long.eighth.nonmon.1.phy_phyml_stats.txt"
+[3] "sim.long.eighth.nonmon.1.phy_phyml_tree.txt" 
+[4] "temp_sim.phy"                                
+[5] "temp_sim.phy_phyml_stats.txt"                
+[6] "temp_sim.phy_phyml_tree.txt"                 
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 sim.long.eighth.nonmon.1.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (SH-like branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1480638128
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Log likelihood of the current tree: -235347.421572.
+
+. Time used 0h26m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Error in file(con, "r") : invalid 'description' argument
+Calls: run.phyml -> readLines -> file
+Execution halted

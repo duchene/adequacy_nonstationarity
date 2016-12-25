@@ -1,0 +1,7 @@
+system("rm -r *folder")
+dats <- grep("[.]phy", dir(), value = T)
+for(i in 1:length(dats)){
+dat <- read.dna(dats[i])
+dat <- dat[, 1:500]
+write.dna(dat, file = dats[i])
+}

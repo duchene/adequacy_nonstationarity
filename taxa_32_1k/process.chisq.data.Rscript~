@@ -1,0 +1,38 @@
+
+
+require(phangorn)
+
+fols <- grep("[.]folder", dir(), value = T)
+results <- matrix(NA, nrow = length(fols), ncol = 7)
+rownames(results) <- fols
+colnames(results) <- c("empirical.chisq", "chisq.p.value", "topo.dist", "trlen.dist", "joined.nonmons", "stdevs.dist", "ranges.dist")
+obstrL <- read.tree("../tree32_rate5.tre")
+obstrS <- read.tree("../tree32_rate50.tre")
+
+for(i in 1:length(fols)){
+      if(file.exists(paste0(fols[i], "/adeqres.Rdata"))){
+      		load(paste0(fols[i], "/adeqres.Rdata"))
+      		esttr <- read.tree(paste0(fols[i], "/", gsub("[.]folder", "_phyml_tree", fols[i])))
+      		results[i, 1:2] <- c(adeqres[[4]], adeqres[[6]])
+		simmean <- mean(adeqres[[5]])
+		simmedian <- median(adeqres[[5]])
+		simstdev <- sd(adeqres[[5]])
+		simsran <- diff(range(adeqres[[5]]))
+		results[i, 6] <- (adeqres[[4]] - simmean) / simstdev
+		results[i, 7] <- (adeqres[[4]] - simmedian) / simsran
+      		if(length(grep("long", fols[i], value = T))){
+      			results[i, 3] <- dist.topo(obstrL, esttr)
+			results[i, 4] <- (sum(obstrL$edge.length) - sum(esttr$edge.length)) / sum(obstrL$edge.length)
+      		} else {
+		        results[i, 3] <- dist.topo(obstrS, esttr)
+			results[i, 4] <- (sum(obstrL$edge.length) - sum(esttr$edge.length)) / sum(obstrL$edge.length)
+      		}
+      		if(length(grep("half", fols[i], value = T))){
+      			results[i, 5] <- is.monophyletic(esttr, tips = paste0("t", c(1:8, 25:32)))
+      		} else {
+		        results[i, 5] <- is.monophyletic(esttr, tips = paste0("t", c(1:2, 31:32)))
+      		}
+      }
+      
+      
+}

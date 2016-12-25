@@ -1,0 +1,4500 @@
+WARNING: ignoring environment value of R_HOME
+[1] "sim.long.null.9.phy"
+
+
+. command-line: phyml -m gtr -a e --q -i sim.long.null.9.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 sim.long.null.9.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481446077
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -223998.652950
+
+. Log likelihood of the current tree: -223678.218222.
+
+. Time used 0h26m52s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "sequence length is 5000"
+[1] "TREE:"
+
+Phylogenetic tree with 64 tips and 62 internal nodes.
+
+Tip labels:
+	t55, t56, t54, t53, t51, t52, ...
+Node labels:
+	, 1.000000, 0.986669, 1.000000, 1.000000, 1.000000, ...
+
+Unrooted; includes branch lengths.
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+[1] "Q matrix = 0.18409" "Q matrix = 0.65249" "Q matrix = 0.12271"
+[4] "Q matrix = 0.16548" "Q matrix = 0.75614" "Q matrix = 0.13422"
+[1] "Shape parameter: 0.972"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481447870
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225383.496377
+
+. Log likelihood of the current tree: -225152.937490.
+
+. Time used 0h8m4s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 1 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481448358
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225032.568459
+
+. Log likelihood of the current tree: -224628.054175.
+
+. Time used 0h11m10s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 2 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481449032
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226047.191569
+
+. Log likelihood of the current tree: -225645.609015.
+
+. Time used 0h20m33s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 3 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481450270
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225128.911746
+
+. Log likelihood of the current tree: -224970.474460.
+
+. Time used 0h5m29s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 4 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481450602
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225475.240667
+
+. Log likelihood of the current tree: -225133.541939.
+
+. Time used 0h26m24s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 5 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481452191
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224428.373916
+
+. Log likelihood of the current tree: -224271.756474.
+
+. Time used 0h9m8s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 6 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481452744
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225383.860203
+
+. Log likelihood of the current tree: -225105.792787.
+
+. Time used 0h18m40s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 7 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481453867
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225262.282636
+
+. Log likelihood of the current tree: -224930.450757.
+
+. Time used 0h25m44s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 8 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481455416
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225249.023490
+
+. Log likelihood of the current tree: -224949.631996.
+
+. Time used 0h17m16s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 9 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481456457
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225072.192588
+
+. Log likelihood of the current tree: -224961.136406.
+
+. Time used 0h13m52s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 10 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481457293
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225093.900048
+
+. Log likelihood of the current tree: -224976.425977.
+
+. Time used 0h11m17s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 11 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481457975
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225749.825786
+
+. Log likelihood of the current tree: -225606.554807.
+
+. Time used 0h7m40s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 12 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481458439
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224572.677275
+
+. Log likelihood of the current tree: -224111.177522.
+
+. Time used 0h19m23s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 13 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481459606
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225180.211493
+
+. Log likelihood of the current tree: -224923.954657.
+
+. Time used 0h13m2s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 14 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481460392
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225272.665056
+
+. Log likelihood of the current tree: -224981.278581.
+
+. Time used 0h12m41s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 15 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481461158
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225863.180478
+
+. Log likelihood of the current tree: -225634.872077.
+
+. Time used 0h12m38s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 16 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481461920
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224944.996833
+
+. Log likelihood of the current tree: -224729.382194.
+
+. Time used 0h19m53s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 17 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481463118
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226041.946615
+
+. Log likelihood of the current tree: -225876.390264.
+
+. Time used 0h12m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 18 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481463887
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225958.316531
+
+. Log likelihood of the current tree: -225788.308656.
+
+. Time used 0h13m16s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 19 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481464688
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225507.897744
+
+. Log likelihood of the current tree: -225225.525950.
+
+. Time used 0h33m49s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 20 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481466722
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225252.394454
+
+. Log likelihood of the current tree: -225105.010828.
+
+. Time used 0h8m30s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 21 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481467235
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226205.404576
+
+. Log likelihood of the current tree: -225896.901768.
+
+. Time used 0h28m54s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 22 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481468974
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225267.369537
+
+. Log likelihood of the current tree: -224960.424778.
+
+. Time used 0h25m6s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 23 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481470484
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225685.617661
+
+. Log likelihood of the current tree: -225452.342547.
+
+. Time used 0h17m12s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 24 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481471521
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225968.594257
+
+. Log likelihood of the current tree: -225641.506550.
+
+. Time used 0h18m38s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 25 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481472642
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225157.456105
+
+. Log likelihood of the current tree: -224885.626963.
+
+. Time used 0h26m3s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 26 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481474209
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226250.903021
+
+. Log likelihood of the current tree: -225929.021212.
+
+. Time used 0h14m17s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 27 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481475071
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225733.555487
+
+. Log likelihood of the current tree: -225594.782767.
+
+. Time used 0h8m28s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 28 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481475583
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224222.479699
+
+. Log likelihood of the current tree: -224014.941169.
+
+. Time used 0h20m53s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 29 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481476840
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225319.618627
+
+. Log likelihood of the current tree: -224959.336712.
+
+. Time used 0h21m57s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 30 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481478161
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225954.509895
+
+. Log likelihood of the current tree: -225742.240491.
+
+. Time used 0h20m49s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 31 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481479414
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225209.876138
+
+. Log likelihood of the current tree: -225001.591827.
+
+. Time used 0h18m36s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 32 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481480535
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225214.791325
+
+. Log likelihood of the current tree: -224914.385980.
+
+. Time used 0h19m20s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 33 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481481699
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224940.455550
+
+. Log likelihood of the current tree: -224682.326705.
+
+. Time used 0h17m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 34 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481482769
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225222.739802
+
+. Log likelihood of the current tree: -224897.056920.
+
+. Time used 0h27m32s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 35 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481484425
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225890.150517
+
+. Log likelihood of the current tree: -225541.413612.
+
+. Time used 0h17m38s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 36 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481485487
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225930.911463
+
+. Log likelihood of the current tree: -225627.169582.
+
+. Time used 0h7m23s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 37 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481485933
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225911.260103
+
+. Log likelihood of the current tree: -225643.722443.
+
+. Time used 0h21m13s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 38 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481487210
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226098.522817
+
+. Log likelihood of the current tree: -225814.858116.
+
+. Time used 0h21m46s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 39 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481488520
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226116.076400
+
+. Log likelihood of the current tree: -225966.333148.
+
+. Time used 0h6m18s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 40 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481488903
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225990.268674
+
+. Log likelihood of the current tree: -225694.868319.
+
+. Time used 0h17m45s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 41 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481489972
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225478.776042
+
+. Log likelihood of the current tree: -225289.519234.
+
+. Time used 0h19m47s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 42 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481491163
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225676.927680
+
+. Log likelihood of the current tree: -225374.041339.
+
+. Time used 0h31m56s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 43 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481493083
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224973.577772
+
+. Log likelihood of the current tree: -224633.184034.
+
+. Time used 0h19m0s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 44 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481494227
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225722.121932
+
+. Log likelihood of the current tree: -225592.897471.
+
+. Time used 0h9m15s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 45 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481494786
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225514.452017
+
+. Log likelihood of the current tree: -225371.918818.
+
+. Time used 0h8m19s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 46 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481495290
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225635.152185
+
+. Log likelihood of the current tree: -225344.525943.
+
+. Time used 0h23m8s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 47 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481496683
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224704.446178
+
+. Log likelihood of the current tree: -224387.220043.
+
+. Time used 0h20m51s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 48 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481497938
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225116.195366
+
+. Log likelihood of the current tree: -224876.691533.
+
+. Time used 0h10m56s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 49 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481498599
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225393.766391
+
+. Log likelihood of the current tree: -225080.550636.
+
+. Time used 0h19m25s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 50 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481499767
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225196.074775
+
+. Log likelihood of the current tree: -225047.488554.
+
+. Time used 0h7m27s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 51 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481500219
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225391.550416
+
+. Log likelihood of the current tree: -225223.698669.
+
+. Time used 0h17m59s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 52 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481501302
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224838.747303
+
+. Log likelihood of the current tree: -224446.489191.
+
+. Time used 0h18m31s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 53 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481502416
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225190.871955
+
+. Log likelihood of the current tree: -225085.779609.
+
+. Time used 0h9m59s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 54 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481503020
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225589.803792
+
+. Log likelihood of the current tree: -225476.061786.
+
+. Time used 0h9m0s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 55 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481503565
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225798.874386
+
+. Log likelihood of the current tree: -225538.759167.
+
+. Time used 0h21m31s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 56 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481504860
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226501.105461
+
+. Log likelihood of the current tree: -226209.891051.
+
+. Time used 0h20m24s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 57 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481506088
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226014.768476
+
+. Log likelihood of the current tree: -225750.762189.
+
+. Time used 0h12m6s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 58 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481506818
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225448.567761
+
+. Log likelihood of the current tree: -224902.942126.
+
+. Time used 0h18m51s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 59 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481507954
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225236.168234
+
+. Log likelihood of the current tree: -224992.103193.
+
+. Time used 0h13m22s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 60 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481508760
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225300.504781
+
+. Log likelihood of the current tree: -225146.136686.
+
+. Time used 0h9m34s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 61 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481509337
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226406.277116
+
+. Log likelihood of the current tree: -226135.909012.
+
+. Time used 0h16m13s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 62 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481510315
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225637.584078
+
+. Log likelihood of the current tree: -225335.453488.
+
+. Time used 0h24m32s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 63 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481511791
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225524.112445
+
+. Log likelihood of the current tree: -225398.412207.
+
+. Time used 0h9m16s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 64 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481512352
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225537.858185
+
+. Log likelihood of the current tree: -225294.576825.
+
+. Time used 0h7m39s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 65 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481512815
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225310.138110
+
+. Log likelihood of the current tree: -224943.284751.
+
+. Time used 0h18m31s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 66 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481513931
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225518.324035
+
+. Log likelihood of the current tree: -225271.873814.
+
+. Time used 0h9m58s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 67 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481514533
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225629.357578
+
+. Log likelihood of the current tree: -225167.550082.
+
+. Time used 0h24m39s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 68 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481516017
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225711.265910
+
+. Log likelihood of the current tree: -225399.500761.
+
+. Time used 0h26m37s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 69 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481517618
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225275.977452
+
+. Log likelihood of the current tree: -225031.482598.
+
+. Time used 0h17m28s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 70 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481518671
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224905.630802
+
+. Log likelihood of the current tree: -224762.011931.
+
+. Time used 0h7m32s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 71 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481519127
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225467.512737
+
+. Log likelihood of the current tree: -225175.841747.
+
+. Time used 0h13m9s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 72 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481519921
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225923.665259
+
+. Log likelihood of the current tree: -225646.423976.
+
+. Time used 0h18m34s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 73 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481521039
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226104.766686
+
+. Log likelihood of the current tree: -225852.340666.
+
+. Time used 0h14m30s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 74 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481521913
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225677.164130
+
+. Log likelihood of the current tree: -225381.372518.
+
+. Time used 0h19m2s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 75 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481523059
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225617.611314
+
+. Log likelihood of the current tree: -225483.958098.
+
+. Time used 0h7m54s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 76 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481523538
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226804.277172
+
+. Log likelihood of the current tree: -226565.898047.
+
+. Time used 0h12m54s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 77 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481524316
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225653.177688
+
+. Log likelihood of the current tree: -225357.808692.
+
+. Time used 0h29m21s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 78 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481526080
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224893.603023
+
+. Log likelihood of the current tree: -224714.328093.
+
+. Time used 0h20m16s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 79 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481527301
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -224553.502663
+
+. Log likelihood of the current tree: -224287.416677.
+
+. Time used 0h29m4s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 80 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481529050
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -226258.772992
+
+. Log likelihood of the current tree: -225677.373942.
+
+. Time used 0h19m44s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 81 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481530239
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+. Refining the tree...
+
+. Current value of log-likelihood: -225113.904938
+
+. Log likelihood of the current tree: -224728.107079.
+
+. Time used 0h9m16s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+[1] "Simulation 82 processed"
+
+
+. command-line: phyml -m gtr -a e --q -i temp_sim.phy 
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 temp_sim.phy
+                . Data type:					 dna
+                . Alphabet size:				 4
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Compute approximate likelihood ratio test:	 yes (aBayes branch supports)
+                . Model name:					 GTR
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Nucleotide equilibrium frequencies:		 empirical
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 NNIs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1481530799
+                . Subtree patterns aliasing:			 no
+                . Version:					 20150415
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+

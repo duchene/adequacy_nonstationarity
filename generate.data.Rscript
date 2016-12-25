@@ -1,0 +1,33 @@
+fols <- c("taxa_32_500_s25", "taxa_32_500_s1", "taxa_32_1k_s25", "taxa_32_1k_s1", "taxa_32_5k_s25", "taxa_32_5k_s1", "taxa_64_500_s25", "taxa_64_500_s1", "taxa_64_1k_s25", "taxa_64_1k_s1", "taxa_64_5k_s25", "taxa_64_5k_s1")
+
+strength <- c("nonstat.null", "nonstat.mild", "nonstat.strong", "nonstat.strongest")
+
+source("write.p4sims.2.R")
+
+for(i in 1:6){
+      setwd(fols[i])
+      for(j in 1:length(strength)){
+      	    setwd(strength[j])
+	    system("rm *phy")
+	    makes <- grep("make", dir(), value = T)
+	    for(k in 1:length(makes)) write.p4sims(makes[k])
+	    system("rm *.nex")
+	    setwd("..")
+      }
+      setwd("..")
+}
+
+source("write.p4sims.R")
+
+for(i in 7:12){
+      setwd(fols[i])
+      for(j in 1:length(strength)){
+          setwd(strength[j])
+	  system("rm *phy")
+            makes <- grep("make", dir(), value = T)
+            for(k in 1:length(makes)) write.p4sims(makes[k])
+            system("rm *.nex")
+            setwd("..")
+      }
+      setwd("..")
+}
